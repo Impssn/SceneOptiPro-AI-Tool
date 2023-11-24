@@ -1,0 +1,21 @@
+<!-- loading.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Your loading page's head content here -->
+</head>
+<body>
+    <div>
+        <p>Loading...</p>
+    </div>
+
+    <script>
+    const essayPk = pk;
+    
+    // Redirect to the essay details page after a 5000ms (5 seconds) delay
+    setTimeout(() => {
+        window.location.href = `/essay_detail/${essayPk}/`;
+    }, 5000); // Adjust the delay as needed
+    </script>
+</body>
+</html>
