@@ -8,8 +8,7 @@ import torch, joblib
 
 
 # Load the saved joblib files 
-model = joblib.load("image_to_essay/vision_encoder_decoder_model.joblib")  
-
+model = joblib.load("image_to_essay/vision_encoder_decoder_model.joblib") 
 feature_extractor = joblib.load("image_to_essay/vit_feature_extractor.joblib")
 tokenizer = joblib.load("image_to_essay/auto_tokenizer.joblib")
 
