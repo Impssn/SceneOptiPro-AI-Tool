@@ -1,3 +1,3 @@
 # SceneOptiPro-AI-Tool
-This is an AI Tool built for helping Film makers place a shot which they took at a proper place of their Film as per their script. This is built using the OpenAI Library of python,
+This is an AI Tool built for helping Film makers place a shot which they took at a proper place of their Film as per their script, all needed to be done is just upload the scene shooted, select the role of the person in the scene as per the script and upload the plot of the script in few words. This tool also suggests the optimal costume, situation, location and timing for placing their shoot of the scene. This is built using the OpenAI Library of python,
 by importing a auto_tokenizer, vision_encoder_Decoder, vit_feature_extractor from the HuggingFace in the form of joblib files. python Django is used for the front end here in this AI-Tool.
