@@ -57,7 +57,7 @@ def generate_essay(image,user_input,option):
         preds = tokenizer.batch_decode(output_ids, skip_special_tokens=True)
         preds = [pred.strip() for pred in preds]
         
-        openai.api_key = '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'
+        openai.api_key = 'API KEY'                     #Enter the API key  
         messages = [ {"role": "system", "content": "You are a intelligent assistant."} ]
         #message = 'A Picture containing' + preds[0] + 'give some tips to improve the picture considering its pose, color mode, background, dress also provide a proper imaginary scene for this picture'
         print("\n"+preds[0])
